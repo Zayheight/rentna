@@ -43,6 +43,9 @@
   font-family: 'Poppins', sans-serif;
   font-family: 'Kanit', sans-serif;
 }
+.test1{
+background-color: var(--color-background);
+}
 
 /* .container {
     width: 100%;
@@ -75,7 +78,11 @@
   padding: 12px 20px;
   box-sizing: border-box;  
 }
+.input-text3{
+  color: var(--color-dark);
+  background-color: var(--color-background);
 
+}
 .form-container{
   /* background-color: var(--color-info-light); */
   background: var(--color-white);
