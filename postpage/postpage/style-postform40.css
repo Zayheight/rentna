@@ -1,5 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Kanit:wght@100;200;300&family=Poppins:wght@100;300&display=swap%22");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap%22") ;
+
+:root {
+  --color-primary: #7380ec;
+  --color-danger: #ff7782;
+  --color-success: #31b78a;
+  --color-warning: #ffbb55;
+  --color-white: #fff;
+  --color-info-dark: #7d8da1;
+  --color-info-light: #dce1eb;
+  --color-dark: #363949;
+  --color-light: rgba(132, 139, 200, 0.18);
+  --color-primary-variant: #111e88;
+  --color-dark-variant: #677483;
+  --color-background: #f6f6f9;
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+/* -------------- DARK THEME VARAIBLES ------------- */
+.dark-theme-variables {
+  --color-background: #181a1e;
+  --color-white: #2c3134;
+  --color-dark: #edeffd;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --box-shadow: 0 2rem 3rem  var(--color-light);
+}
+
 
 *{
   margin: 0;
@@ -9,35 +44,52 @@
   font-family: 'Kanit', sans-serif;
 }
 
-.container {
+/* .container {
     width: 100%;
     height: 100%;
     margin-top:  180px ;
     margin-left: auto;
-}
+} */
 
 .input-text1{
+  color: var(--color-dark);
+
   margin-top: 15px;
   border: 2px;
   border-radius: 20px;
+  background-color: var(--color-backgroun);
   border-color: black;
-  width: 50%;
+  width: 70%;
   padding: 12px 20px;
   height: 45px;
 }
 .input-text2{
+  color: var(--color-dark);
   margin-top: 15px;
   border: 2px;
+  background-color: var(--color-danger);
   border-radius: 20px;
   border-color: black;
-  width: 100%;
+  width: 70%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;  
 }
 
+.form-container{
+  /* background-color: var(--color-info-light); */
+  background: var(--color-white);
+  width: 80%;
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 50px;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: .3s ease;
+}
+
 .form-container .text{
-    --text-color: #000000;
+    --text-color: #000000; 
     font-size: 30px;
     text-align: center ;
     font-weight: 500;
@@ -46,26 +98,23 @@
     width: 300px ;
     border: none;
     margin-top: -20px;
-    background-color: #ADCAFB ;
+    background-color: var(--color-info-dark);
     border-radius: 20px;
+    
 }
 
- .form-container{
-    background-color: var(--text-color);
-    margin: 50px;
-    padding: 70px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    transition: .3s ease;
-}
+ 
 
 .form-container .sub-text{
     margin-top: 50px;
     font-size: 20px;
+    color: var(--color-dark);
     
 }
+    
+
 .quantity-room{
+  
   margin-top: 50px;
   margin-right: 20px;
   font-size: 20px;
@@ -102,7 +151,7 @@
 }
 
 .form-container ul li{
-  color: #000000;
+  color: var(--color-dark);
   display: block;
   position: relative;
   float: left;
@@ -110,14 +159,14 @@
   
 }
 
-
+/*ซ่อนxปุ่มradio*/
 .form-container ul li input[type=radio]{
     position: absolute;
     visibility: hidden;
   }
 
 .form-container ul li label{
-   font-size: 18px;
+    font-size: 18px;
     display: block;
     position: relative;
     padding: 25px 25px 25px 80px;
@@ -129,17 +178,17 @@
   }
 
 .form-container ul li:hover label{
-  color: #fffbfb;
+  color: #31b78a;
 }
 
 .form-container ul li:hover .check {
-  border: 5px solid #AAAAAA;
+  border: 5px solid #31b78a;
 }
 
 .form-container ul li .check{
   display: block;
   position: absolute;
-  border: 5px solid #AAAAAA;
+  border: 5px solid #aaaaaa9a;
   border-radius: 100%;
   height: 25px;
   width: 25px;
@@ -165,20 +214,18 @@
 }
 
 input[type=radio]:checked ~ .check {
-  border: 5px solid  var(--primary-color);
+  border: 5px solid  var(--color-success);
   
 }
 
 input[type=radio]:checked ~ .check::before{
-  background: var(--primary-color);
+  background: var(--color-success);
 }
 
 input[type=radio]:checked ~ label{
-  color: var(--primary-color);
+  color: var(--color-success);
   ;
 }
-
-
 
 
 /* button*/
