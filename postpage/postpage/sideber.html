@@ -23,7 +23,6 @@
 
 
   <body>
-
     <header>
       <div class="nav-bar">
         <div class="logo">
@@ -41,7 +40,24 @@
             <a href="/Menunavbar/Questionpage.html"><i class="uil uil-envelope"></i>คำถาม</a>
             <a1><a href="../postpage/postpage/postpage-land/postpage20-1.html"><i class="uil uil-envelope"></i> + ลงประกาศ</a></a1>
             <a href="/Function/login/login.html"><i class="uil uil-envelope"></i>เข้าสู่ระบบ</a>
-
+            <a>gph</a>
+            <i>riejgregrj</i>
+            
+            <i><div class="right">
+              <div class="top">
+                <div class="profile">
+                  <div class="info">
+                    <p>Hey, <b>Daniel</b></p>
+                    <small class="text-muted">Admin</small>
+                  </div>
+                  <div class="profile-photo">
+                    <img src="/img/img/user1.png" />
+                  </div>
+                </div>
+      
+              </div>
+            </div></i>
+            
           </div>
           
         </div>
@@ -59,10 +75,10 @@
 
           <aside>
             <div class="top">
-              <div class="logo-rentnaja">
+              <div class="logo">
+                <img src="/img/img/logo.png" />
                 <h2 cla>RENT<span class="danger">NAJA</span></h2>
               </div>
-              
               <div class="close" id="close-btn">
                 <span class="material-icons-sharp">close</span>
               </div>
@@ -136,47 +152,77 @@
                   <span class="material-icons-sharp active">light_mode</span>
                   <span class="material-icons-sharp">dark_mode</span>
                 </div>
-                <div class="profile">
-                  <div class="info">
-                    <p>Hey, <b>Daniel</b></p>
-                    <small class="text-muted">Admin</small>
-                  </div>
-                  <div class="profile-photo">
-                    <img src="/img/img/user1.png" />
-                  </div>
-                </div>
                 </div>
               </div>
     
-            <form  action="" method="post">
-                    <table width="40%"  >
-                    <tr>
-                        <label>
-                            <td class="left"><input type="checkbox" name="shopping mall" value=""> ห้างสรรพสินค้า</td>
-                            <td class="center"><input type="checkbox" name="hospital"> โรงพยาบาล </td>
-                            <td class="right"><input type="checkbox" name="airport"> สนามบิน</td>
-                            </label>
-                        </tr>
-                        <tr>
-                        <label>
-                            <td class="left"><input type="checkbox" name="suppermarket"> ซุปเปอร์มาร์เก็ต </td>
-                            <td class="center"><input type="checkbox" name="school"> โรงเรียน </td>
-                            <td class="right"><input type="checkbox" name="university"> มหาวิทยาลัย </td>
-                        </label>
-                        </tr>
-                     </table>
-                     
-                <table>
-                    <tr>
-                        <label>
-                            <td class="left"><input type="checkbox" name="television"> อื่นๆ </td> 
-                            <td><input  class="input-text2" type="text" >  
-                            </td>
-                            
-                        </label>
-                    </tr>
-                </table>
-                </form>
+            <div class="form-container">
+              <h1 class="text">ประกาศ</h1>
+              <form >
+                  <form> 
+                  <p class="sub-text">สถานะผู้ลงประกาศ  <span style="color: red;">*</span><span> </span> : </p>
+    
+                  <!-- radio-->
+                  <ul> 
+                      <li>
+                        <input type="radio" id="owner-option" name="selector">
+                        <label for="owner-option">เจ้าของทรัพย์</label>
+                        
+                        <div class="check"><div class="inside"></div></div>
+                      </li>
+    
+                      <li>
+                        <input type="radio" id="Agent-option" name="selector">
+                        <label for="Agent-option">Agent รู้จักกับเจ้าของทรัพย์โดยตรง</label>
+                        
+                        <div class="check"><div class="inside"></div></div>
+                      </li>
+                      
+                      <li>
+                        <input type="radio" id="Agent-option2" name="selector">
+                        <label for="Agent-option2">Agent ไม่ได้รู้จักกับเจ้าของทรัพย์โดยตรง</label>
+                        
+                        <div class="check"><div class="inside"></div></div>
+                      </li>
+                    </ul>
+                  <p class="validation">*ต้องการปล่อยให้เช่าอสังหาฯ นี้เท่านั้น</p>
+                  </form>
+    
+                  <form> 
+                  <p class="sub-text">ที่ตั้งโครงการ  <span style="color: red;">*</span><span></span>  :  </p>
+                   <!-- radio-->
+                  <ul> 
+                      <li>
+                        <input type="radio" id="bkk-option" name="selector">
+                        <label for="bkk-option">กรุงเทพและปริมณฑล</label>
+                        
+                        <div class="check"></div>
+                      </li>
+    
+                      <li>
+                        <input type="radio" id="provincial-option" name="selector">
+                        <label for="provincial-option">ต่างจังหวัด</label>
+                        
+                        <div class="check"><div class="inside"></div></div>
+                      </li> 
+                    </ul>
+                  <p class="validation">*ปริมณฑล  ได้แก่ จังหวัดนครปฐม จังหวัดนนทบุรี จังหวัดปทุมธานี จังหวัด สมุทรปราการ และจังหวัดสมุทรสาคร</p>
+                  </form>
+              </form>
+              
+              <div class="btnall"> 
+                  <table>
+                      <tr>
+                          <td>
+                              <button class="btn1"  > บันทึก</button> 
+                          </td>
+                          <td>
+                              <a href="./postpang20-2.html" >  <button class="btn2"  > ถัดไป</button> </a>
+                          </td>
+                      </tr>
+                  
+                  </table>
+              </div>
+          </div>
         </main>
   
   

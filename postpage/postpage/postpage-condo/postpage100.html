@@ -8,191 +8,178 @@
     
     <!----======== CSS ======== -->
     <link rel="stylesheet" href="../style-postform100.css">
-    <link rel="stylesheet" href="../style-sidebar.css">
+    <link rel="stylesheet" href="../style-sibebarNew.css">
+    <link rel="stylesheet" href="../style_navpost.css">
 
-
-    <!--<link rel="stylesheet" href="80per.css"> -->
-    
     <!----===== Boxicons CSS ===== -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"/>
     
     <!--<title>Dashboard Sidebar Menu</title>--> 
 
 
 </head>
 <body>
-    <nav class="sidebar close">
-        <header>
-            <div class="image-text">
-                <span class="image">
-                    <!--<img src="logo.png" alt="">-->
-                </span>
 
-                <div class="text logo-text">
-                    <span class="name">Rentnaja</span>
-                </div>
+    <header>
+        <div class="nav-bar">
+          <div class="logo">
+            <img src="/img/img/logo.png" alt="" id="vv" />
+          </div>
+          <div class="navigation">
+            <div class="nav-items">
+              <i class="uil uil-times nav-close-btn"></i>
+              <a href="/Homepage.html"><i class="uil uil-home"></i>หน้าแรก</a>
+              <a href="/Menunavbar/Rentpage.html"><i class="uil uil-compass"></i>ให้เช่า</a>
+              <a href="/Menunavbar/Reccomendedpage.html"><i class="uil uil-info-circle"></i>รายการแนะนำ</a>
+              <a href="/Menunavbar/Aboutuspage.html"><i class="uil uil-document-layout-left"></i>เกี่ยวกับเรา</a>
+              <a href="/Menunavbar/Contactuspage.html"><i class="uil uil-document-layout-left"></i>ติดต่อเรา</a>
+              <a href="/Menunavbar/Newspage.html"><i class="uil uil-envelope"></i>ข่าว</a>
+              <a href="/Menunavbar/Questionpage.html"><i class="uil uil-envelope"></i>คำถาม</a>
+              <a1><a href="../postpage-land/postpage20-1.html"><i class="uil uil-envelope"></i> + ลงประกาศ</a></a1>
+              <a href="/Function/login/login.html"><i class="uil uil-envelope"></i>เข้าสู่ระบบ</a>
+  
             </div>
-
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
-
-        <div class="menu-bar">
-            <div class="menu">
-
-                <li class="search-box">
-                    <i class='bx bx-search icon'></i>
-                    <input type="text" placeholder="Search...">
-                </li>
-
-                <ul class="menu-links">
-                    <li class="nav-link">    
-                            <i class='bx bx-home-alt icon' ></i>
-                            <span class="text nav-text"><strong>ประเภทอสังหาริมทรัพย์</strong></span>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-land/postpage20-1.html">
-                            <i class='bx bx-map-pin icon'></i>
-                            <span class="text nav-text">ที่ดิน</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-home/postpage20-1.html">
-                            <i class='bx bx-home icon' ></i>
-                            <span class="text nav-text">บ้าน</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-condo/postpage20-1.html">
-                            <i class='bx bx-home-circle icon'></i>
-                            <span class="text nav-text">คอนโด</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-townhome/postpage20-1.html">
-                            <i class='bx bx-building-house icon'></i>
-                            <span class="text nav-text">ทาวน์โฮม</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-villa/postpage20-1.html">
-                            <i class='bx bx-home-smile icon' ></i>
-                            <span class="text nav-text">วิลล่า</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-commercial/postpage20-1.html">
-                            <i class='bx bxs-building-house icon'></i>
-                            <span class="text nav-text">อาคารพาณิชย์</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-homeoffice/Postpage-homeoffice20-1.html">
-                            <i class='bx bx-building-house icon'></i>
-                            <span class="text nav-text">โฮมออฟฟิศ</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-space/postpage20-1.html">
-                            <i class='bx bx-map-alt icon'></i>
-                            <span class="text nav-text">พื้นที่ให้เช่า</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-office/postpage20-1.html">
-                            <i class='bx bxs-business icon'></i>
-                            <span class="text nav-text">สำนักงาน</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-factory/postpage20-1.html">
-                            <i class='bx bxs-factory icon' ></i>
-                            <span class="text nav-text">โรงงาน</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-warehouse/postpage20-1.html">
-                            <i class='bx bxs-package icon' ></i>
-                            <span class="text nav-text">โกดัง</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../postpage-other/postpage20-1.html">
-                            <i class='bx bx-been-here icon'></i>
-                            <span class="text nav-text">อื่นๆ</span>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="bottom-content">
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <span class="mode-text text">Dark mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
-                
-            </div>
+            
+          </div>
+          <i class="uil uil-apps nav-menu-btn"></i>
         </div>
+        <div class="scroll-indicator-container">
+          <div class="scroll-indicator-bar"></div>
+        </div>
+  
+        
+      </header>
 
-    </nav>
+      <div class="container">
+        <aside>
+            <div class="top">
+              <div class="logo-rentnaja">
+                <h2 cla>RENT<span class="danger">NAJA</span></h2>
+              </div>
+              <div class="close" id="close-btn">
+                <span class="material-icons-sharp">close</span>
+              </div>
+            </div>
+            
+    
+    
+            <div class="sidebar">
+              <a href="../postpage-land/postpage20-1.html" >
+                <span  class='bx bx-map-pin icon' ></span>
+                <h3> ที่ดิน</h3>
+              </a>
+    
+              <a href="../postpage-home/postpage20-1.html" >
+                <span class='bx bx-home icon' ></span>
+                <h3>บ้าน </h3>
+              </a>
+              <a class="active" >
+                <span class='bx bx-home-circle icon'> </span>
+                <h3> คอนโด</h3>
+              </a>
+              <a href="/postpage/postpage/postpage-townhome/Postpage20-1.html">
+                <span class='bx bx-building-house icon'></span>
+                <span ><h3>ทาวน์โฮม</h3></span>
+              </a>
+              <a href="/postpage/postpage/postpage-villa/postpage20-1.html">
+                <span class='bx bx-home-smile icon' ></span>
+                <span > <h3>วิลล่า </h3></span>
+              </a>
+              <a href="/postpage/postpage/postpage-commercial/Postpage20-1.html">
+                <span class='bx bxs-building-house icon'></span>
+                <span ><h3>อาคารพาณิชย์</h3></span>
+              </a>
+              <a href="/postpage/postpage/postpage-homeoffice/Postpage-homeoffice20-1.html">
+                <span class='bx bx-building-house icon'></span>
+                <span ><h3>โฮมออฟฟิศ</h3></span>
+              </a>
+              <a href="/postpage/postpage/postpage-space/postpage20-1.html">
+                <span class='bx bx-map-alt icon'></span>
+                <span ><h3>พื้นที่ให้เช่า</h3></span>
+              </a>
+              <a href="/postpage/postpage/postpage-office/Postpage20-1.html">
+                <span class='bx bxs-business icon'></span>
+                <span ><h3>สำนักงาน</h3></span>
+              </a>
+              <a href="/postpage/postpage/postpage-factory/postpage20-1.html">
+                <span class='bx bxs-factory icon' ></span>
+                <span ><h3>โรงงาน</h3></span>
+              </a>
+              <a href="/postpage/postpage/postpage-warehouse/postpage20-1.html">
+                <span class='bx bxs-package icon' ></span>
+                <span ><h3>โกดัง</h3></span>
+            </a>
+            <a href="/postpage/postpage/postpage-other/Postpage20-1.html">
+              <span class='bx bx-been-here icon'></span>
+              <span ><h3>อื่นๆ</h3></span>
+            </a>
+            
+           
+            </div>
+          </aside>
 
-    <section class="home">
-        <div class="container"> 
-            <div class="form-container">
+          <main>
+            <div class="right">
+                <div class="top">
+    
+                  <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                  </button>
+                  <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                  </div>
+    
+                  <div class="profile">
+                    <div class="info">
+                      <p>Hey, <b>Daniel</b></p>
+                      <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                      <img src="/img/img/user1.png" />
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+
+              <div class="form-container">
                 <form>
                     <div class="sub-body">
-                        <header class="head">
-                            <h1 class="text">ค่าเช่า</h1>
-                        </header>
+                        
+                        <h1 class="text">ค่าเช่า</h1>
+                        
                         <div class="row">
                             <div class="col">
                               <div class="form-group">
                                 <label > ค่าเช่า/เดือน <span style="color: red;">*</span><span></span> :</label>
-                                <input name="rental" type="text" class="form-control" placeholder="" >
+                                <input  name="rental" type="text" class="input-text1" placeholder="" >
                               </div>
                             </div>
                             <div class="col">
                                 <div class="form-group">
                                     <label>  ค่าส่วนกลาง/ตารางเมตร <span style="color: red;">*</span><span></span> :</label>
-                                    <input name="common" type="text" class="form-control" placeholder="">
+                                    <input name="common" type="text" class="input-text1" placeholder="">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="form-group">
                                     <label> ค่ามัดจำ <span style="color: red;">*</span><span></span> :</label>
-                                    <input name="deposit" type="text" class="form-control" placeholder="">
+                                    <input name="deposit" type="text" class="input-text1"placeholder="">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="form-group">
                                     <label> ล่วงหน้า/เดือน <span style="color: red;">*</span><span></span> :</label>
-                                    <input name="prepaid" type="text" class="form-control" placeholder=""  >
+                                    <input name="prepaid" type="text" class="input-text1" placeholder=""  >
                                 </div>
                             </div>
                         </div>
                         <br><br>
-                        <header class="head">
-                            <h1 class="text">ข้อมูลเพิ่มเติม</h1>
-                        </header>
+                        
+                            <h1 class="text" style="margin-top: 30px;">ข้อมูลเพิ่มเติม</h1>
+                        
                         <div class="col">
                             <div class="form-group">
                                 <label> รูปภาพ <span style="color: red;">*</span><span></span> </label>
@@ -241,29 +228,22 @@
                                 <input class="form-control" type="file" id="property-images">
                             </div>
                             <br>
-                            <label> <small> <u>คำแนะนำ</u> เพิ่มตัวอย่างรูปภาพแผนผังพื้นที่ของอสังหาฯ เพื่อเพิ่มความน่าสนใจแก่ผู้ชื้อหรือผู้เช่า</small></label>
+                            <label> <small> <span style = "text-decoration: underline;"> คำแนะนำ</span> เพิ่มตัวอย่างรูปภาพแผนผังพื้นที่ของอสังหาฯ เพื่อเพิ่มความน่าสนใจแก่ผู้ชื้อหรือผู้เช่า</small></label>
                             <br><br>
                             <div class="row">
                                 <div class="col">
                                     <div class="form-group">
-                                        <label class=""> URL <small>*</small>:</label>
-                                        <input name="URLproperty-imag" type="text" class="form-control" placeholder=""  >
+                                        <label class=""> URL </label>
+                                        <input name="URLproperty-imag" type="text" class="input-text1" placeholder="" >
+                                        <label class="validation"> <small style="color: red;">*หมายเหตุ : ลิงก์สำหรับนำรูปภาพมาใส่</small></label>
+
                                     </div>
-                                    <br><br>
-                                    <label class="validation"> <small>*หมายเหตุ : ลิงก์สำหรับนำรูปภาพมาใส่</small></label>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                    
-        
-        
-        
-        
-                
-                </form>
-                
+                             
+                </form>               
                 <div class="btnall"> 
                     <table>
                         <tr>
@@ -278,41 +258,35 @@
                     </table>
                 </div>
                 </div>
-            </div>
+          </main>
+      </div>
 
-        
-            
-        
-    </section>
+
 
 
     <script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
+        const sideMenu = document.querySelector("aside");
+    const menuBtn = document.querySelector("#menu-btn");
+    const closeBtn = document.querySelector("#close-btn");
+    const themeToggler = document.querySelector(".theme-toggler");
     
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
+    // show sidebar
+    menuBtn.addEventListener('click', () => {
+        sideMenu.style.display = 'block';
+    })
+    
+    // close sidebar
+    closeBtn.addEventListener('click', () => {
+        sideMenu.style.display = 'none';
+    })
+    
+    // change theme
+    themeToggler.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme-variables');
+    
+        themeToggler.querySelector('span:nth-child(1)').classList.toggle('active');
+        themeToggler.querySelector('span:nth-child(2)').classList.toggle('active');
+    })
     </script>
 
 </body>

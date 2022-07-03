@@ -225,3 +225,31 @@ a {
   
   
   
+
+    /* /* checkbox / */
+  input[type=checkbox] {
+    display:none;
+    }
+    input[type=checkbox]
+    {
+    background: #999;
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+     /* padding: 0 0 0 0px;  */
+    padding-left: 25px;
+    border-radius: 30px;
+
+    }
+    input[type=checkbox]:checked
+    {
+    background: rgba(26, 228, 8, 0.555);
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    /*  padding: 0 0 0 0px; */ 
+    padding-left: 25px;
+    }
+    label{
+      font-size: small;
+    }

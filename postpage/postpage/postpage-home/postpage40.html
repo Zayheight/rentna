@@ -147,8 +147,22 @@
                 <h1 class="text">ข้อมูลโครงการ</h1>
                 
                 <form>
-                    <p class="sub-text">รายละเอียด <span style="color: red;">*</span><span> :</p>
-                    <p class="validation">หมายเหตุ:ถ้าไม่มีข้อมูลให้ใส่ 0(ศูนย์)</p>
+                    <!-- <p class="sub-text">รายละเอียด <span style="color: red;">*</span><span> :</p>
+                    <p class="validation">หมายเหตุ:ถ้าไม่มีข้อมูลให้ใส่ 0(ศูนย์)</p> -->
+
+                    <p class="sub-text" >ประเภทอสังหาริมทรัพย์ <span style="color: red;">*</span><span> :</p>
+                      <select  class="input-text3"  id="" style="border: 2px; border-radius: 20px;border-color: black;width: 50%;text-align: center;height: 45px;  margin-top: 15px;">
+                        <option disabled selected hidden>----บ้านเดี่ยว/บ้านแฝด---- </option>
+                        <option>บ้านเดี่ยว</option>
+                        <option>บ้านแฝด</option>
+                      </select>
+
+                      <p class="sub-text" >รายละเอียด <span style="color: red;">*</span><span> :</p>
+                        <select  class="input-text3"  id=""  style="border: 2px; border-radius: 20px;border-color: black;width: 50%;text-align: center;height: 45px;  margin-top: 15px;" >
+                          <option disabled selected hidden> ----มือหนึ่ง/มือสอง---</option>
+                          <option>มือหนึ่ง</option>
+                          <option>มือสอง</option>
+                        </select>
                     <!-- <ul> 
                         <li>
                             <input type="radio" id="owner-option" name="selector">
@@ -166,10 +180,43 @@
                             <option>--------เลือกจำนวนเดือน---------</option>
                         </select>                    
 
-                        <p class="sub-text">เนื้อที่<span style="color: red;">*</span><span> :</p>
+                        <!-- <p class="sub-text">เนื้อที่<span style="color: red;">*</span><span> :</p>
                             <input class="input-text3" type="text" name="" id="" style="margin-top: 15px;border: 2px; border-radius: 20px;border-color: black;width: 20%;text-align: center;height: 45px;" ><span style="font-size: 20px; margin:10px">  ไร่ </span><span><input class="input-text3" type="text" name="" id="" style="border: 2px; border-radius: 20px;border-color: black;width: 20%;text-align: center;height: 45px;" ><span style="font-size: 20px;margin:10px;">งาน </span><input class="input-text3"  type="text" name="" id="" style="border: 2px; border-radius: 20px;border-color: black;width: 20%;text-align: center;height: 45px;" ><span style="font-size: 20px;margin:10px;">ตารางวา</span></span>
-                        <p style="font-size: 10px;color: red;">*หมายเหตุ: อย่างเช่น 5 ไร่ 20 งาน 50 ตารางวา</p>
+                        <p style="font-size: 10px;color: red;">*หมายเหตุ: อย่างเช่น 5 ไร่ 20 งาน 50 ตารางวา</p> -->
                         
+
+                        <table>
+                          <br>
+                             <tr style="line-height: 20px">
+                                 <td><p  class="quantity-room">จำนวนชั้น<span style="color: red;">*</span><span> :</span></p> </td>
+                                 <th><input  class="input-text3"type="text"style="border: 2px; border-radius: 20px;border-color: black;width: 100px;height: 25px;text-align: center; margin-top:50px; margin-right:20px "></th>
+                                 <td><p class="quantity-room" >ห้องนอน<span style="color: red;">*</span><span> :</span></p></td>
+                                 <th><input class="input-text3" type="text" style="border: 2px; border-radius: 20px;border-color: black;width: 100px;height: 25px;text-align: center ;margin-top:50px; margin-right:20px  "></th>
+                                 <td><p class="quantity-room" >ห้องน้ำ<span style="color: red;">*</span><span> :</span></p></td>
+                                 <th><input class="input-text3" type="text"style="border: 2px; border-radius: 20px;border-color: black;width: 100px;height: 25px;text-align: center; margin-top:50px; margin-right:20px "></th>
+                             </tr>
+                              <td><p class="quantity-room" >ห้องครัว<span style="color: red;">*</span><span> :</span></p> </td>
+                              <th><input class="input-text3" type="text"style="border: 2px; border-radius: 20px;border-color: black;width: 100px;height: 25px;text-align: center;margin-top:50px; margin-right:20px "></th>
+                              <td><p class="quantity-room" >ห้องนั่งเล่น<span style="color: red;">*</span><span> :</span></p></td>
+                              <th><input class="input-text3" type="text"style="border: 2px; border-radius: 20px;border-color: black;width: 100px;height: 25px;text-align: center;margin-top:50px; margin-right:20px "></th>
+                              <td><p class="quantity-room">ที่จอดรถ<span style="color: red;">*</span><span> :</span></p></td>
+                              <th><input class="input-text3" type="text"style="border: 2px; border-radius: 20px;border-color: black;width: 100px;height: 25px;text-align: center;margin-top:50px; margin-right:20px "></th>
+                          </tr>
+                          <br>
+                         </table >
+                         <br>
+                         <p class="sub-text" >ทิศของระเบียง<span style="color: red;">*</p>
+                          <select class="input-text3"  id="" style="border: 2px; border-radius: 20px;border-color: black;width: 50%;text-align: center;height: 45px;margin-top: 15px;">
+                              <option>--------ทิศของระเบียง---------</option>
+                          </select>
+                         <br>
+
+
+                         <p class="sub-text">พื้นที่ใช้สอย (ตร.ม.)<span style="color: red;">*</span><span> :</p>
+                          <input class="input-text3" type="text" style="border: 2px; border-radius: 20px;border-color: black;width: 50%;height: 45px;  padding: 12px 20px;margin-top: 15px;">
+                         <p class="sub-text">ขนาดพื้นที่ (ตร.วา.)<span style="color: red;">*</span><span> :</p>
+                          <input class="input-text3"type="text" style="border: 2px; border-radius: 20px;border-color: black;width: 50%;height: 45px;  padding: 12px 20px; margin-top: 15px;">
+
                             
                         <p class="sub-text">รหัสทรัพย์สิน<span style="color: red; ">*</span><span> :</p>
                             <input  class="input-text3" type="text" name="" id="" style="border: 2px; border-radius: 20px;border-color: black;width: 30%;text-align: center;height: 45px;margin-top: 15px;" placeholder="xxxxxxxxxxxxxxxxxxxx">
