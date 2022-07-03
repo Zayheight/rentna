@@ -51,7 +51,7 @@
 
       
     </header>
-    
+
       <div class="container">
 
         <aside>
@@ -156,23 +156,23 @@
                 <p class="sub-text">สถานะผู้ลงประกาศ  <span style="color: red;">*</span><span> </span> : </p>
   
                 <!-- radio-->
-                <ul> 
+                <ul > 
                     <li>
-                      <input type="radio" id="owner-option" name="selector">
-                      <label for="owner-option">เจ้าของทรัพย์</label>
+                      <input type="radio" id="owner-option" name="selector" required> 
+                      <label for="owner-option" >เจ้าของทรัพย์</label>
                       
                       <div class="check"><div class="inside"></div></div>
                     </li>
   
                     <li>
-                      <input type="radio" id="Agent-option" name="selector">
+                      <input type="radio" id="Agent-option" name="selector" required>
                       <label for="Agent-option">Agent รู้จักกับเจ้าของทรัพย์โดยตรง</label>
                       
                       <div class="check"><div class="inside"></div></div>
                     </li>
                     
                     <li>
-                      <input type="radio" id="Agent-option2" name="selector">
+                      <input type="radio" id="Agent-option2" name="selector" required>
                       <label for="Agent-option2">Agent ไม่ได้รู้จักกับเจ้าของทรัพย์โดยตรง</label>
                       
                       <div class="check"><div class="inside"></div></div>
@@ -186,14 +186,14 @@
                  <!-- radio-->
                 <ul> 
                     <li>
-                      <input type="radio" id="bkk-option" name="selector">
+                      <input type="radio" id="bkk-option" name="selector" required >
                       <label for="bkk-option">กรุงเทพและปริมณฑล</label>
                       
                       <div class="check"></div>
                     </li>
   
                     <li>
-                      <input type="radio" id="provincial-option" name="selector">
+                      <input type="radio" id="provincial-option" name="selector" required>
                       <label for="provincial-option">ต่างจังหวัด</label>
                       
                       <div class="check"><div class="inside"></div></div>
@@ -201,21 +201,25 @@
                   </ul>
                 <p class="validation">*ปริมณฑล  ได้แก่ จังหวัดนครปฐม จังหวัดนนทบุรี จังหวัดปทุมธานี จังหวัด สมุทรปราการ และจังหวัดสมุทรสาคร</p>
                 </form>
+
+
+                <div class="btnall"> 
+                  <table>
+                      <tr>
+                          <td>
+                              <button class="btn1"  > บันทึก</button> 
+                          </td>
+                          <td>
+                              <a href="./postpage20-2.html" >  <button class="btn2"  > ถัดไป</button> </a>
+                          </td>
+                      </tr>
+                  
+                  </table>
+              </div>
+
             </form>
             
-            <div class="btnall"> 
-                <table>
-                    <tr>
-                        <td>
-                            <button class="btn1"  > บันทึก</button> 
-                        </td>
-                        <td>
-                            <a href="./postpage20-2.html" >  <button class="btn2"  > ถัดไป</button> </a>
-                        </td>
-                    </tr>
-                
-                </table>
-            </div>
+            
         </div>
       </main>
 

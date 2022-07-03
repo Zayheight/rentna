@@ -73,11 +73,13 @@
   width: 80%;
   margin-top: 10px;
   margin-left: 100px;
+  margin-right: 0;
   padding: 50px;
   border-radius: 40px;
   text-decoration: none;
   transition: .3s ease;
 }
+
 
 .form-container .sub-text{
   margin-top: 50px;
@@ -98,10 +100,11 @@
     border: 2px; 
     border-radius: 20px;
     border-color: black;
-    width: 250px;
+    width: 210px;
     height: 45px; 
     padding: 12px 20px;
     margin-top: 15px;
+    margin-right: 15px;
     
     
 }
@@ -133,17 +136,21 @@
     border: 2px; 
     border-radius: 20px;
     border-color: black;
-    width: 250px;
+    width: 210px;
     text-align: center;
     height: 45px;
     margin-top: 15px;
+    margin-right: 15px;
+
 
 }
 
 .select-station{
   background-color: var(--color-background);
     border: 2px;
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: 40px;
+
     border-radius: 20px;
     border-color: black;
     width: 200px;
