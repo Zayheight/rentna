@@ -1,5 +1,41 @@
 /* Google Font Import - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-primary: #7380ec;
+  --color-danger: #ff7782;
+  --color-success: #31b78a;
+  --color-warning: #ffbb55;
+  --color-white: #fff;
+  --color-info-dark: #7d8da1;
+  --color-info-light: #dce1eb;
+  --color-dark: #363949;
+  --color-light: rgba(132, 139, 200, 0.18);
+  --color-primary-variant: #111e88;
+  --color-dark-variant: #677483;
+  --color-background: #f6f6f9;
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+/* -------------- DARK THEME VARAIBLES ------------- */
+.dark-theme-variables {
+  --color-background: #181a1e;
+  --color-white: #2c3134;
+  --color-dark: #edeffd;
+  --color-dark-variant: #a3bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
+  --box-shadow: 0 2rem 3rem  var(--color-light);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -41,7 +77,7 @@
       font-size: 30px;
       text-align: center ;
       font-weight: 500;
-      color: var(--text-color);
+      color: var(--t);
       padding: 12px 80px ;
       width: 300px ;
       border: none;
@@ -52,12 +88,12 @@
   }
   
    .form-container{
-      background-color: var(--text-color);
+      background-color: var(--color-dark);
       margin: 50px;
       padding: 70px;
       border-radius: 10px;
       text-decoration: none;
-      color: rgb(0, 0, 0);
+      color: var(--color-dark);
       transition: .3s ease;
   }
   

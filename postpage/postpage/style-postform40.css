@@ -110,6 +110,20 @@ background-color: var(--color-background);
     
 }
 
+
+.input-text4{
+  color: var(--color-dark);
+  background-color: var(--color-background);
+   border: 2px; 
+   border-radius: 20px;
+   border-color: black;
+   width: 210px;
+   height: 45px; 
+   padding: 12px 20px;
+   margin-top: 15px;
+   margin-right: 15px;
+   
+}
  
 
 .form-container .sub-text{
