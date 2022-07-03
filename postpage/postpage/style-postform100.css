@@ -56,7 +56,6 @@
     border: 2px;
     border-radius: 20px;
     background-color: var(--color-background);
-    border-color: black;
     width: 70%;
     padding: 12px 20px;
     height: 45px;
@@ -146,7 +145,7 @@
     height: 40px;
   }
   
-  .sub-body .row .col .form-group input,
+  /* .sub-body .row .col .form-group input,
   .sub-body .row .col .form-group textarea {
     position: absolute;
     width: 50%;
@@ -159,13 +158,13 @@
     border-radius: 10px;
     color: var(--color-dark);
     border: black;
-  }
+  } */
   
   .sub-body .form-group label {
     line-height: 40px;
     color:var(--color-dark);
-    font-size: 24px;
-    margin: 0 0 0 30px;
+    font-size: 20px;
+    margin: 0 0 0 0px;
     display: block;
     pointer-events: none;
   }
