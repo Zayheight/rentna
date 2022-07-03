@@ -243,7 +243,7 @@ a {
     }
     input[type=checkbox]:checked
     {
-    background: rgba(26, 228, 8, 0.555);
+    background: #31b78a;
     height: 30px;
     width: 30px;
     display:inline-block;
