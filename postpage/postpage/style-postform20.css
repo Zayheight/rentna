@@ -71,7 +71,7 @@
 
 .form-container{
   /* background-color: var(--color-info-light); */
-  box-shadow: 3px 3px 3px 10px rgba(0, 0, 0, 0.73);
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.73);
   background: var(--color-white);
   width: 80%;
   margin-top: 10px;
