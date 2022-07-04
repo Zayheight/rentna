@@ -15,6 +15,7 @@
   --color-primary-variant: #111e88;
   --color-dark-variant: #677483;
   --color-background: #f6f6f9;
+  --color-green-eiei:#31b78a;
 
   --card-border-radius: 2rem;
   --border-radius-1: 0.4rem;
@@ -33,6 +34,7 @@
   --color-dark: #edeffd;
   --color-dark-variant: #a3bdcc;
   --color-light: rgba(0, 0, 0, 0.4);
+
   --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
@@ -127,7 +129,7 @@ b {
 }
 
 .primary {
-  color: var(--color-primary);
+  color: var(--color-green-eiei);
 }
 .danger {
   color: var(--color-danger);
@@ -144,7 +146,6 @@ aside {
 }
 
 aside .top {
-  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -214,7 +215,7 @@ aside .sidebar a:last-child {
 
 aside .sidebar a.active {
   background: var(--color-light);
-  color: var(--color-primary);
+  color: var(--color-green-eiei);
   margin-left: 0;
 }
 
@@ -222,16 +223,16 @@ aside .sidebar a.active:before {
   content: "";
   width: 6px;
   height: 100%;
-  background: var(--color-primary);
+  background: var(--color-green-eiei);
 }
 
 aside .sidebar a.active span {
-  color: var(--color-primary);
+  color: var(--color-green-eiei);
   margin-left: calc(1rem - 3px);
 }
 
 aside .sidebar a:hover {
-  color: var(--color-primary);
+  color: var(--color-green-eiei);
 }
 
 aside .sidebar a:hover span {
@@ -290,7 +291,7 @@ main {
 }
 
 .right .theme-toggler span.active {
-  background: var(--color-primary);
+  background: var(--color-green-eiei);
   color: white;
   border-radius: var(--border-radius-1);
 }

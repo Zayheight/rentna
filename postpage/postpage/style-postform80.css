@@ -72,30 +72,36 @@
     box-sizing: border-box;  
   }
   
+  .form-container{
+    /* background-color: var(--color-info-light); */
+    box-shadow: 3px 3px 3px 3px rgba(1, 16, 8, 0.73);
+    background: var(--color-white);
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding: 50px;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: .3s ease;
+  }
+  
   .form-container .text{
-      --text-color: #000000;
-      font-size: 30px;
+      background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,93,1) 100%);
+      --text-color: #000000; 
+      font-size: 26px;
       text-align: center ;
       font-weight: 500;
-      color: var(--t);
+      color: var(--text-color);
       padding: 12px 80px ;
       width: 300px ;
       border: none;
       margin-top: -20px;
-      background-color: #ADCAFB ;
+      background-color: var(--color-text-dark);
       border-radius: 20px;
       
   }
   
-   .form-container{
-      background-color: var(--color-dark);
-      margin: 50px;
-      padding: 70px;
-      border-radius: 10px;
-      text-decoration: none;
-      color: var(--color-dark);
-      transition: .3s ease;
-  }
   
   .form-container .sub-text{
       margin-top: 50px;
@@ -385,47 +391,48 @@ a {
     text-decoration: none;
   }
   .btnall{
-    margin-left: 35%;
+    margin-top: 100px;
+    margin-left: 28%;
   }
   .btn1{
-      background-color: #5DBB63 ;
-      margin: 10px;
-      padding: 15px 45px;
-      text-align: center;
-      text-transform: uppercase;
-      transition: 0.5s;
-      background-size: 200% auto;
-      color: black;            
-      border-radius: 30px;
-      display: block;
-      border: 0px;
-    }         
-     .btn1:hover{
-       background-position: right center; /* change the direction of the change here */
-       color: #fff;
-       text-decoration: none;
-       background-color: #16A085 ;
-     }
-    
-     .btn2{
-      background-color: #D0312D ;
-      margin: 10px;
-      padding: 15px 45px;
-      text-align: center;
-      text-transform: uppercase;
-      transition: 0.5s;
-      background-size: 200% auto;
-      color: black;            
-      border-radius: 30px;
-      display: block;
-      border: 0px;
-    }         
-     .btn2:hover{
-       background-position: right center; /* change the direction of the change here */
-       color: #fff;
-       text-decoration: none;
-       background-color: #B80F0A ;
-     }
+    background-color: #31b78a ;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    border-radius: 30px;
+    display: block;
+    border: 0px;
+  }         
+   .btn1:hover{
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+     background-color: #279d17 ;
+   }
+  
+   .btn2{
+    background-color: #ff7782 ;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    border-radius: 30px;
+    display: block;
+    border: 0px;
+  }         
+   .btn2:hover{
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+     background-color: #B80F0A ;
+   }
   /*------------------------------------------------------------------------------------*/
 
 
